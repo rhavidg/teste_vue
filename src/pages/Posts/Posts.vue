@@ -166,7 +166,7 @@ export default {
                 @input="(event) => (text = event.target.value)"
                 placeholder="Title..."
               /><br />
-              <input
+              <textarea
                 type="text"
                 id="lname"
                 name="lname"
@@ -199,7 +199,7 @@ export default {
                 @input="(event) => (text = event.target.value)"
                 placeholder="Title..."
               /><br />
-              <input
+              <textarea
                 type="text"
                 id="lname"
                 name="lname"
